@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();
+const app = express();   //express() matlab express tool start kar
 
 app.get('/hello', (req,res) => {
     res.json({message: 'Hello from DevOps!', version: '1.0'});
